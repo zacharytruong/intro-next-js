@@ -1,8 +1,14 @@
 import React from 'react';
+import Link from 'next/link';
 
 const Page = () => {
   return (
-    <div>Page Index</div>
+    <div>
+      <h1>Page Index</h1>
+      <Link href={'/notes'}>
+        To Notes
+      </Link>
+    </div>
   )
 }
 
